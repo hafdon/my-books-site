@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Book Translations Site (English, Gaelic)'
+theme = 'hugo-book'
+
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableMissingTranslationPlaceholders = true
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+contentDir = "content/en"
+[languages.ga]
+languageName = "Gaelic"
+weight = 2
+contentDir = "content/ga"
+
+[params]
+rootPage = "docs"                      # Set the root page to 'docs' to match the content directory
+disableSearch = false
+BookToC = true
+disableLanguageSwitchingButton = false # Ensure this is set to false
+
+
+[taxonomies]
+tag = "tags"
+category = "categories"
