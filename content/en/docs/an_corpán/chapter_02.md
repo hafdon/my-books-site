@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2: The Mystery"
+title: "02: The Mystery"
 weight: 3
 translationKey: "chapter02"
 ---

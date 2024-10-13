@@ -1,0 +1,26 @@
+# Hugo generated directories
+public/
+resources/
+
+# Hugo cache files
+hugo_cache/
+hugo_stats.json
+
+# Local development files
+*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sass cache
+.sass-cache/
+
+# Build artifacts
+*.log
+
+# Optional: if you use Netlify or other deployment services
+# Uncomment the following line if you don't want to track Netlify config
+# netlify.toml
+
+themes/hugo-book
